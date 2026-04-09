@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Empanadas Com Payé | Corrientes</title>
 <style>
-  /* Se mantienen todos tus estilos CSS intactos */
+  
   :root {
     --rojo: #8B0000;
     --rojo-vivo: #C0392B;
@@ -14,8 +14,8 @@
     --dorado-oscuro: #C9972A;
     --crema: #FFF8E7;
     --texto: #1a1a1a;
-  }
-  /* ... (código CSS omitido por brevedad, pero debe permanecer en tu archivo) ... */
+  
+  
 </style>
 </head>
 <body>
@@ -75,7 +75,7 @@
       '✅ Pedido enviado desde la web'
     ].filter(l => l !== undefined && !(l === '' && !notas)).join('\n');
 
-    // SE ACTUALIZÓ EL NÚMERO EN LA URL DE WHATSAPP AQUÍ
+    
     const url = 'https://wa.me/5493794011998?text=' + encodeURIComponent(msg);
 
     const toast = document.getElementById('toast');
